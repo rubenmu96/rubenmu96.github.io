@@ -1,7 +1,7 @@
 # Welcome to my shit page
 
 ```markdown
-
+``` 
 # Header 1
 
 ## Header 2
@@ -15,7 +15,3 @@ $$
 \end{align}
 $$
 
-
-
-
-```
