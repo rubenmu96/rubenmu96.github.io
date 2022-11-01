@@ -7,17 +7,3 @@
 ![equation](https://latex.codecogs.com/gif.latex?%5Csqrt%7B3x-1%7D&plus;%281&plus;x%29%5E2)
 
 ### Header 3
-
-
-$$
-\begin{align}
-  x = y
-\end{align}
-$$
-
-$$ y_i = a x + b $$
-
-
-```math
-\sqrt{3}
-```
