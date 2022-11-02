@@ -5,6 +5,10 @@ description: Under work.
 relative_links:
   enabled: true
   collections: true
-include:
+navigation:
   - README.md
+  internal: true
+  url: ./
   - Page2.md
+  iternal: true
+  url: https://rubenmu96.github.io/Page2
