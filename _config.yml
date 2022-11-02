@@ -1,10 +1,13 @@
 theme: jekyll-theme-minimal
 remote_theme: pages-themes/cayman@v0.2.0
 title: Octocat's homepage
+source: rubenmu96
 description: Under work.
 relative_links:
   enabled: true
   collections: true
 layout: page
-title: "PAGE-TITLE"
-permalink: /URL-PATH
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
