@@ -5,18 +5,6 @@ description: Under work.
 relative_links:
   enabled: true
   collections: true
-navigation:
-- text: Introduction
-  internal: true
-  url: ./
-- text: Add a new page
-  internal: true
-  url: add-a-new-page
-- text: Configure the Guide
-  internal: true
-  url: configure-the-guide
-- text: GitHub Setup
-  internal: true
-  url: github
-- text: Create a Glossary
-  glossary: true
+layout: page
+title: "PAGE-TITLE"
+permalink: /URL-PATH
