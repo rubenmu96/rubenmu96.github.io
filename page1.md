@@ -6,7 +6,7 @@ permalink: /page1/
 
 # Machine learning
 
-# Information theory
+## Information theory
 
 
 ## Entropy
