@@ -1,6 +1,12 @@
 theme: jekyll-theme-minimal
 remote_theme: pages-themes/cayman@v0.2.0
-title: Octocat's homepage
+
+title: Machine learning with Python
+email: mustadruben@gmail.com
+description: "Course materials and notes for Stanford class CS231n: Convolutional Neural Networks for Visual Recognition."
+baseurl: ""
+url: "https://rubenmu96.github.io"
+github_username: rubenmu96
 source: rubenmu96
 description: Under work.
 relative_links:
