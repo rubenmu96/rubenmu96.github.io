@@ -15,8 +15,12 @@ Examples of hyperparameters in a neural network are
 
 ## Activation functions
 
-- Sigmoid: $\sigma(z) = \frac{1}{1 + e^{-z}}$ with derivative $\sigma'(z) = \sigma(z) ( 1 - \sigma(z))$
-- Tanh (or hyperbolic): $\sigma(z) = \text{tanh}(x) = \frac{2}{1 + e^{-2z}} - 1$
+- Sigmoid: 
+$$\sigma(z) = \frac{1}{1 + e^{-z}}$$ 
+with derivative 
+$$\sigma'(z) = \sigma(z) ( 1 - \sigma(z))$$
+- Tanh (or hyperbolic): 
+$$\sigma(z) = \text{tanh}(x) = \frac{2}{1 + e^{-2z}} - 1$$
 
 
 $$
