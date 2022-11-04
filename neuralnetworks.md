@@ -17,3 +17,8 @@ Examples of hyperparameters in a neural network are
 
 - Sigmoid: $\sigma(z) = \frac{1}{1 + e^{-z}}$ with derivative $\sigma'(z) = \sigma(z) ( 1 - \sigma(z))$
 - Tanh (or hyperbolic): $\sigma(z) = \text{tanh}(x) = \frac{2}{1 + e^{-2z}} - 1$
+
+
+$$
+d_1 (I_1, I_2) = \sum_{p} \left| I^p_1 - I^p_2 \right|
+$$
