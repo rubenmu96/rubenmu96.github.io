@@ -20,7 +20,7 @@ $$
 
 #### MAE
 $$
-    \text{MAE} = \frac{1}{n} \sum_{j=1}^n |y_j - \hat{y}_j|.
+    \text{MAE} = \frac{1}{n} \sum_{j=1}^n |y_j - \hat{y}_j.
 $$
 
 #### Hinge loss
