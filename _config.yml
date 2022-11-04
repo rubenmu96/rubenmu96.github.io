@@ -1,4 +1,8 @@
 title: Machine learning with Python
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true 
 email: mustadruben@gmail.com
 description: "Machine learning"
 baseurl: ""
@@ -14,3 +18,5 @@ kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: rouge
+  
+  
