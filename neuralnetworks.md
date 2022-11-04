@@ -1,6 +1,5 @@
 ---
 layout: page
-mathjax: true
 permalink: /neural_networks/
 ---
 # Neural networks
