@@ -1,4 +1,8 @@
-
+---
+layout: page
+mathjax: true
+permalink: /ML_intro/
+---
 
 ## Metrics in regression
 
