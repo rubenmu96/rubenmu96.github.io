@@ -26,5 +26,5 @@ $$
 #### Hinge loss
 Hinge loss is primarily used with Support Vector Machine (SVM) Classifiers with class labels -1 and 1. Hinge Loss not only penalizes the wrong predictions but also the right predictions that are not confident.
 $$
-    J = \max(0,1-y f(x))
+    J = \text{max}(0,1-y f(x))
 $$
