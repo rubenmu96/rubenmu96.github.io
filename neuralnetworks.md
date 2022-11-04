@@ -3,6 +3,7 @@ layout: page
 mathjax: true
 permalink: /neural_networks/
 ---
+# Neural networks
 Hyperparameters are the variables which determines the network structure, e.g, number of hidden units, and the variables which determine how the network is trained, e.g.,
 - Number of hidden units
 - Learning rate
