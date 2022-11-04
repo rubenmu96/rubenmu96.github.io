@@ -4,6 +4,9 @@ mathjax: true
 permalink: /correlation/
 ---
 
+# Statistics
+## Correlation
+
 Script for finding the correlation between features. Only values equal or greater than p are printed out. 
 ```python
 def correlation(data, p):
