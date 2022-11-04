@@ -7,7 +7,6 @@ titles_from_headings:
   strip_title: true
   collections: true 
 email: mustadruben@gmail.com
-description: "Course materials and notes for Stanford class CS231n: Convolutional Neural Networks for Visual Recognition."
 baseurl: ""
 url: "https://rubenmu96.github.io"
 github_username: rubenmu96
