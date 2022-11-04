@@ -15,5 +15,4 @@ def correlation(data, p):
             corr = data[coli].corr(data[colj])
             if np.abs(corr) >= p:
                 print('Correlation between ' + coli + ' and ' + colj + ' is ' + str(np.round(corr,3)))
-correlation(data, 0.5)
 ```
