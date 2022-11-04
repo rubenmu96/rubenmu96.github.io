@@ -1,9 +1,5 @@
 theme: jekyll-theme-minimal
 remote_theme: pages-themes/cayman@v0.2.0
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
-  
 
 title: Machine learning with Python
 titles_from_headings:
@@ -21,3 +17,6 @@ relative_links:
   enabled: true
   collections: true
 layout: page
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
