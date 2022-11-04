@@ -11,7 +11,7 @@ The mean squared error (MSE) is given by
 $$
     \text{MSE} = \frac{1}{n} \sum_{j=1}^n (y_j - \hat{y}_j)^2.
 $$
-where $$y_j$$ is the ground truth and $$y_j$$ is the predicted value. MSE is useful when we have outliers in the dataset. 
+where $y_j$ is the ground truth and $y_j$ is the predicted value. MSE is useful when we have outliers in the dataset. 
 
 #### RMSE
 $$
