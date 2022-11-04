@@ -8,7 +8,6 @@ Mutual information is a measure of the amount of information that one random var
 
 
 ```python
-
 def test_python(test):
   return test
 ```
