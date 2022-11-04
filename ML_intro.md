@@ -66,8 +66,7 @@ $$
 $$
     \text{Precision} = \frac{\text{TP}}{\text{TP} + \text{FP}} = \frac{\text{TP}}{\text{all predicted}}
 $$
-
-    What proportion of positive identifications was actually correct? The precision of a model describes how many detected items are truly relevant
+What proportion of positive identifications was actually correct? The precision of a model describes how many detected items are truly relevant
 - F$_1$ is the harmonic mean of precision and recall
 
 $$
