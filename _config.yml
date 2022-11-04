@@ -1,22 +1,16 @@
-theme: jekyll-theme-minimal
-remote_theme: pages-themes/cayman@v0.2.0
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
-  
 title: Machine learning with Python
-titles_from_headings:
-  enabled:     true
-  strip_title: true
-  collections: true 
-  
 email: mustadruben@gmail.com
+description: "Machine learning"
 baseurl: ""
 url: "https://rubenmu96.github.io"
 github_username: rubenmu96
-source: rubenmu96
-description: Under work.
-relative_links:
-  enabled: true
-  collections: true
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
