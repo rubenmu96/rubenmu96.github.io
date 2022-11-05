@@ -17,7 +17,6 @@ $$
 where the gradient direction is given by
 
 $$
-
     \theta = \tan^{-1}\bigg(\frac{\partial f}{\partial y} / \frac{\partial f}{\partial x}\bigg).
 $$
 
