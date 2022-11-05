@@ -62,6 +62,6 @@ where $$\alpha$$ is the learning rate. If $$\alpha$$ is too small, gradient desc
 
 - Initialize weights randomly $$\sim N(0,\sigma^2)$$
 - Loop until convergence:
--     Compute gradient $$\frac{\partial J(w)}{\partial w}$$
--     Update weights $$w \rightarrow w - \eta \frac{\partial J(w)}{\partial w}$$
+- - Compute gradient $$\frac{\partial J(w)}{\partial w}$$
+- - Update weights $$w \rightarrow w - \eta \frac{\partial J(w)}{\partial w}$$
 - Return weights 
