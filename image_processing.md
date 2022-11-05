@@ -6,6 +6,19 @@ permalink: /image_processing/
 
 # Image processing
 
+## Cross-correlation
+$$
+    G[i,j] = \sum_{u=-k}^k \sum_{v = -k}^k h[u,v] F[i+ u, j + v]    
+$$
+
+
+## Convolution
+$$
+    G[i,j] = \sum_{u=-k}^k \sum_{v = -k}^k h[u,v] F[i - u, j - v]    
+$$
+
+We can also use the cross-correlation formula, given that we flip the kernel. 
+
 ## Image gradient
 
 The gradient of an image is defined by
