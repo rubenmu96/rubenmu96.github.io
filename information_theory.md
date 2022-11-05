@@ -17,6 +17,22 @@ The unit of entropy is bit (since $$\log_2$$). If you observe the formula, entro
 
 The largest entropy will occur when the probability of all the events are the same. 
 
+## Joint and conditional entropy
+
+The joint entropy is given by
+
+$$
+    H(X,Y) = - \sum_i \sum_j p(x_i,y_j) \log_2 p(x_i,y_j).
+$$
+
+The joint entropy represents the amount of information needed on average to specify the value of two discrete random variables. The \textbf{conditional entropy} is given by
+
+$$
+    H(Y|X) = -\sum_i \sum_j p(x_i,y_j) \frac{p(x_i,y_j)}{p(x_i)}
+$$
+
+The conditional entropy indicates how much extra information you still need to supply on average to communicate $$Y$$ given that the other party knows $$X$$.
+
 ### Mutual information
 
 Mutual information is a measure of the amount of information that one random variable contains about another random variable. Alternatively, it can be defined as the reduction in uncertainty of one variable due to the knowledge of the other. 
