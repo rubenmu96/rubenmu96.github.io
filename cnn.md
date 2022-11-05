@@ -6,5 +6,5 @@ permalink: /cnn/
 
 # Convolutional neural networks
 
-# Kernel 
+## Kernel 
 words words words words 
