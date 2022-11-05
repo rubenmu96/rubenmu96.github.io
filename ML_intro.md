@@ -51,22 +51,19 @@ $$
     \text{Specificity} = \frac{\text{TN}}{\text{TN} + \text{FP}}
 $$
 
-- Recall is the fraction of relevant instances that are retrieved
+- Recall is the fraction of relevant instances that are retrieved: What proportion of actual positives was identified correctly? Recall is a measure of how many relevant elements were detected.
 
 $$
     \text{Recall} = \frac{\text{TP}}{\text{TP} + \text{FN}} = \frac{\text{TP}}{\text{all ground truth instances}}
 $$
-
-What proportion of actual positives was identified correctly? Recall is a measure of how many relevant elements were detected.
     
-- Precision is the fraction of retrieved instances that are relevant
+- Precision is the fraction of retrieved instances that are relevant: What proportion of positive identifications was actually correct? The precision of a model describes how many detected items are truly relevant
 
 $$
     \text{Precision} = \frac{\text{TP}}{\text{TP} + \text{FP}} = \frac{\text{TP}}{\text{all predicted}}
 $$
 
-What proportion of positive identifications was actually correct? The precision of a model describes how many detected items are truly relevant
-- F$_1$ is the harmonic mean of precision and recall
+- F$$_1$$ is the harmonic mean of precision and recall
 
 $$
     F_1 = 2\frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
