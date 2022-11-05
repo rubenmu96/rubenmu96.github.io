@@ -37,7 +37,7 @@ The conditional entropy indicates how much extra information you still need to s
 
 Mutual information is a measure of the amount of information that one random variable contains about another random variable. Alternatively, it can be defined as the reduction in uncertainty of one variable due to the knowledge of the other. 
 
-Consider two random variables $X$ and $Y$ with a joint probability mass function $$p(x,y)$$ and marginal probability mass function $$p(x)$$ and $$p(y)$$. The mutual information $I(X;Y)$ is the relative entropy between the joint distribution and the product distribution $$p(x) p(y)$$,
+Consider two random variables $$X$$ and $$Y$$ with a joint probability mass function $$p(x,y)$$ and marginal probability mass function $$p(x)$$ and $$p(y)$$. The mutual information $I(X;Y)$ is the relative entropy between the joint distribution and the product distribution $$p(x) p(y)$$,
 
 $$
     I(X;Y) = \sum_{x \in X} \sum_{y \in Y} p(x,y) \log \frac{p(x,y)}{p(x) p(y)}
