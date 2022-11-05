@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /CNN/
+permalink: /cnn/
 ---
 
 # Convolutional neural networks
