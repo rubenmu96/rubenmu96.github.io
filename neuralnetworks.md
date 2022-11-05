@@ -49,7 +49,8 @@ A way to get overfitting is to have a small dataset or using a large network.
 
 
 ## Optimizers
-\subsubsection{SGD}
+
+### SGD
 To find the minimum, we can use the Gradient descent, given by
 
 $$
