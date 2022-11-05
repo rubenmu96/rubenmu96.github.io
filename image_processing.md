@@ -6,6 +6,16 @@ permalink: /image_processing/
 
 # Image processing
 
+## Histogram
+
+The brightness histogram $$h_f(z)$$ of an image provides the frequency of the brightness value of $$z$$ in the image - the histogram of an image with $$L$$ gray-levels is represented by a one-dimensional array with $$L$$ elements.
+
+
+Algorithm:
+1. Assign zero values to all elements of the array $$h_f$$
+2. For all pixels $$(x,y)$$ of the image $$f$$, increment $$h_f(f(x,y))$$ by $$1$$
+
+
 ## Cross-correlation
 $$
     G[i,j] = \sum_{u=-k}^k \sum_{v = -k}^k h[u,v] F[i+ u, j + v]    
