@@ -12,7 +12,6 @@ Examples of hyperparameters in a neural network are
 - Batch size (the number of sub samples given to the network after which parameter update happens. A good default for batch size can be 32.
 - Number of epochs (the number of times the whole training data is shown to the network while training)
 
-
 ## Activation functions
 Activation functions can be divided into two categories
 - Linear activation functions
@@ -28,6 +27,18 @@ $$\sigma'(z) = \sigma(z) ( 1 - \sigma(z))$$
 $$\sigma(z) = \text{tanh}(x) = \frac{2}{1 + e^{-2z}} - 1$$ with derivative $$\sigma'(z) = 1 - \sigma^2(z)$$.
 
 
+## Weights
+To prevent the gradients of the network’s activations from vanishing or exploding, good weights should follow the principles:
+- The mean of the activations should be zero.
+- The variance of the activations should stay the same across every layer.
+
+### Xavier
+A common way to initialize the weights are using the Xavier weight initialization. The weights are distributed using a uniform probability distribution, in the range $$(-1 / \sqrt{n}, 1 / \sqrt{n})$$, where $$n$$ is the number of inputs to the node. 
+
+We can also consider normalized Xavier weight initialization. We then consider the range $$(- \sqrt{6} / \sqrt{n+m}, \sqrt{6} / \sqrt{n + m})$$, where $$n$$ is the number of nodes in the previous laayer and $$m$$ is the number of nodes in the current layer. 
+
+### He
+The He weight initialization is calculated using a Gaussian probability distribution with mean $$0$$ and std of $$\sqrt{2/n}$$.
 
 ## Bias
 
