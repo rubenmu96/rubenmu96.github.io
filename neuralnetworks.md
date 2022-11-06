@@ -77,3 +77,20 @@ where $$\alpha$$ is the learning rate. If $$\alpha$$ is too small, gradient desc
     - Compute gradient $$\frac{\partial J(w)}{\partial w}$$
     - Update weights $$w \rightarrow w - \eta \frac{\partial J(w)}{\partial w}$$
 - Return weights 
+
+### Adam
+Adam is an adaptive optimizer, meaning each parameter (the weights and biases) will have its own learning rate. 
+
+
+1. It is computationally efficient and has little memory requirement
+2. It it invariant to diagonal rescaling of the gradients
+3. Adam works well in practice as compared to other stochastic optimization methods
+
+
+## Forward and backward pass
+
+The forward pass takes the inputs, passes them through the network and allows each neuron to react to a fraction of the input. Neurons generate their outputs and pass them on to the next layer, until eventually the network generates an output. The forward propagation formula is given by
+
+$$
+    a_k^{[l]} = g\bigg(\sum_{j=1}^{n^{[l-1]}} w_{jk}^{[l]} a_j^{[l-1]} + b_k^{[l]}\bigg)
+$$
