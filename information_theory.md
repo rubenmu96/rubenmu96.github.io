@@ -50,3 +50,13 @@ $$
 $$
 
 We see that mutual information is the reduction in the uncertainty of $$X$$ due to the knowledge of $$Y$$. 
+
+
+## Relative entropy (KL divergence)
+Relative entropy or KL-divergence, denoted by $$D(p||q)$$, is a measure of the inefficiency of assuming that the distribution is $$q$$ when the true distribution is $$p$$. It is defined as
+
+$$
+    D(p||q) = \sum_{x \in X} p(x) \log \frac{p(x)}{q(x)}
+$$
+
+Relative entropy is always non-negative and can be $$0$$ only if $$p = q$$. 
